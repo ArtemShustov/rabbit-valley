@@ -3,7 +3,7 @@ using Game.Rabbits;
 using UnityEngine;
 
 namespace Game.Characters {
-	public class ObjectIneractor: MonoBehaviour {
+	public class ObjectInteractor: MonoBehaviour {
 		[SerializeField] private CharacterStateMachine _machine;
 		[SerializeField] private CarrotWallet _wallet;
 
